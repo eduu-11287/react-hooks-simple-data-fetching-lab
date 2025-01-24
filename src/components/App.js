@@ -12,7 +12,7 @@ function App() {
             setIsLoading(false);
         })
             .catch((error) => {
-                console.log('Error fetiching dog imsge:', error);
+                console.log('Error fetching dog imsge:', error);
                 setIsLoading(false);
             });
         }, []);
